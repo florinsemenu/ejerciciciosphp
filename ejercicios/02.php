@@ -1,9 +1,11 @@
 <?php
 
+$ocho = 8;
+$resultado = 0;
 
 for ($i = 1; $i <= 10; $i++) {
 
-    $resultado= $i*8;
-    echo $i"x8="$resultado;
-};
+    $resultado = $i * $ocho;
+    echo $ocho . " x " . $i . "=" . $resultado . "<br>";
+}
 ?>
