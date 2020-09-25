@@ -5,6 +5,8 @@
 </head><body>
 <?php
 //inicializamos
+// $array1 = array();
+// $array1 = [];
 echo "Array ordenado inicializado elemento por elemento <hr>";
 $array1[]="elemento 0 porque estába vacía";
 $array1[]="elemento 1 supongo";
