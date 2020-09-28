@@ -83,7 +83,7 @@
     <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
     Uso de arrays ordenadas. Añadir elementos dinámicamente.
     </li>
-    <ul>
+      <ul>
         <li>
           <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
           Repitite el ejercicio 6 añadiendo los elementos al array de uno en uno.
@@ -97,10 +97,68 @@
     <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
     Uso de arrays asociativos. 
     </li>
+      <ul>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Repitite el ejercicio 6. En esta ocasión debes usar un array asociativo. Cada posición se llamará correctamente: base, escolta, alero, alapivot, pivot.
+          Muestra el resultado con un "foreach (clave => valor)"
+        </li>
+      </ul>
     <li>
     <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
     Array de más de una dimensión
     </li>
+
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+    Variables suporglobales: $_SERVER
+    </li>
+
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+    Primer formulario: $_GET, $_POST, $_REQUEST
+    </li>
+
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+    Formulario con más cosas...
+    </li>
+
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+    Y uno que se envía las cosas a sí mismo!
+    </li>
+
+      <ul>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Crea un formulario para enviar los datos de registro de un libro: título, autor, editorial, páginas.
+        </li>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Crea un formulario para enviar campo nombre. Si el nombre existe se da un saludo. Si no existe se vuelve atrás indicando que el campo es obligatorio.
+        </li>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Crea un formulario para enviar campo nombre. El nombre debe existir y debe tener un tamaño mínimo de 3 caracteres. Si es válido se da un saludo. Si no lo es se vuelve atras indicando que el campo es obligatorio y mostrando en el "input" el valor anterior no válido.
+        </li>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Crea un formulario que funcione como calculadora. Debe contener dos input como operandos y un select para elegir operador.
+            <ul>
+              <li> Si se reciben los datos muestra el resultado. </li>
+              <li> Si no son válidos o no existen debe devolver a la página anterior.</li>
+            </ul>
+        </li>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Crea un formulario que envíe un array de 3 nombres. Para hacerlo debes usar el mismo nombre en todos los input (name="nombres[]").
+        </li>
+        <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Inspírate en el anterior. Crea un formulario que envíe un nombre. El action debe ser el mismo script. Muestra el nombre recibido en un input. Añade otro input vacío para un nuevo nombre. A cada pulsación, la lista de nombres debe ir creciendo.
+        </li>
+      </ul>
 
   </ol>
 
