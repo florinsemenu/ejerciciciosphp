@@ -7,6 +7,6 @@ $jugadores []= "Zero";
 $jugadores []= "Ruso";
 
 foreach ($jugadores as $value) {
-    echo $position . " : " . $value . "<br>";
+    echo  $value . "<br>";
 }
 ?>
