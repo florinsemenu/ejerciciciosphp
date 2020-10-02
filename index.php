@@ -13,6 +13,7 @@
   ?>
   
   <h2>Ejemplos</h2>
+  <h3>Programar con scripts</h3>
   <ol>
     <li>
     <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
@@ -140,26 +141,42 @@
         </li>
         <li>
           <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
-          Crea un formulario para enviar campo nombre. El nombre debe existir y debe tener un tamaño mínimo de 3 caracteres. Si es válido se da un saludo. Si no lo es se vuelve atras indicando que el campo es obligatorio y mostrando en el "input" el valor anterior no válido.
+          Envío del script al mismo script.
+          Crea un formulario para enviar campo nombre. El nombre debe existir y debe tener un tamaño mínimo de 3 caracteres. Si es válido se da un saludo. Si no lo es se vuelve a mostar el formulario indicando que el campo es obligatorio y mostrando en el "input" el valor anterior no válido.
         </li>
         <li>
           <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
-          Crea un formulario que funcione como calculadora. Debe contener dos input como operandos y un select para elegir operador.
+          Envío del script al mismo script. Crea un formulario que funcione como calculadora. Debe contener dos input como operandos y un select para elegir operador.
             <ul>
               <li> Si se reciben los datos muestra el resultado. </li>
-              <li> Si no son válidos o no existen debe devolver a la página anterior.</li>
+              <li> Si no son válidos o no existen debe mostrar de nuevo el formulario de calculadora.</li>
             </ul>
         </li>
         <li>
           <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
           Crea un formulario que envíe un array de 3 nombres. Para hacerlo debes usar el mismo nombre en todos los input (name="nombres[]").
         </li>
-        <li>
-          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
-          Inspírate en el anterior. Crea un formulario que envíe un nombre. El action debe ser el mismo script. Muestra el nombre recibido en un input. Añade otro input vacío para un nuevo nombre. A cada pulsación, la lista de nombres debe ir creciendo.
-        </li>
       </ul>
 
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+    Como montar una lista usando inputs y arrays
+      <ul>
+      <li>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          Crea una lista usando etiquetas ul y li. La lista inicialmente estará vacía pero un formulario con un input servirá para añadir los elementos. Usa input de tipo hidden para que no "olvidar" los elementos ya añadidos a la lista.
+        </li>
+      </ul>
+    </li>
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>.php" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+    Uso de funciones
+    </li>
+    <h3>POO</h3>
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>/" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+      Mi primera clase.
+    </li>
   </ol>
 
 </body>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head>
         <meta charset="UTF-8">
-        <title>ejemplo 7</title>
+        <title>ejemplo</title>
 </head><body>
     <h2>Nuestro primer formulario</h2>
     <form method="get" action="10action.php">
