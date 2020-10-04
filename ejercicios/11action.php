@@ -1,16 +1,12 @@
 <?php
-//aprobechamos para ver un par de funciones para el manejo de variables.
 //isset comprueba si una variable está definida y no es null
 //empty comprueba si una variable contiene algún valor distinto de 0 o false
 echo '<meta charset="UTF-8">';
 if(isset($_POST) && !empty($_POST)){
-    echo "Titulo $_POST[titulo]";
-    echo "Autor $_POST[autor]";
-    echo "Editorial $_POST[editorial]";
-    echo "Páginas $_POST[paginas]";
-    //var_dump nos puede ayudar a entender lo que hemos recibido
-    echo "<hr><pre>";
-    var_dump($_POST);
+    echo "Titulo: $_POST[titulo]<br>";
+    echo "Autor: $_POST[autor]<br>";
+    echo "Editorial: $_POST[editorial]<br>";
+    echo "Páginas: $_POST[paginas]<br>";  
 }
  else {
      echo "No hemos recibido nada!";
