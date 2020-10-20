@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html><head>
         <meta charset="UTF-8">
-        <title>ejemplo</title>
+        <title>Login 18</title>
 </head>
 <body>
-    <h2>Formulario</h2>
-    <form method="post" action="">
-        <label>Usuario</label><input type="text" value="" name="usuario" required> <br>
-        <label>Contraseña</label><input type="password" value="" name="contraseña" required> <br>
-        <input type="submit" value="enviar">
+    <h1>Formulario de login</h1>
+    
+    <form action="?method=auth" method="post">
+        <label for="">Usuario</label>
+        <input type="text" name="name">
+        <br>
+        <label for="">Contraseña</label>
+        <input type="password" name="password">
+        <br>
+        <input type="submit" value="login">
     </form>
   
 </body>
