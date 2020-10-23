@@ -191,7 +191,7 @@
     </li>
       <ul>
         <li>
-          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+          <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
           Ejercicio sobre POO y series numéricas (fibonacci, factorial, primos y potencias de 2). Enunciado en apuntes
         </li>
       </ul>
@@ -201,12 +201,30 @@
     </li>
     <ul>
       <li>
-        <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+        <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
         Cookies 1 (ver apuntes)
       </li>
       <li>
-        <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>.php" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+        <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
         Cookies 2 (ver apuntes)
+      </li>
+    </ul>
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>/" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+      Sesiones. Ver vídeo
+    </li>
+    <li>
+    <a href="/ejemplos/<?php printf("%02d", ++$ejemplo);  ?>/" target="_blank">Ejemplo <?php printf("%02d", $ejemplo);  ?></a>
+      Sesiones con POO. Ver víedo
+    </li>
+    <ul>
+      <li>
+        <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+        Ejercicio igual al 19 pero con sesiones
+      </li>
+      <li>
+        <a href="/ejercicios/<?php printf("%02d", ++$ejercicio);  ?>" target="_blank">Ejercicio <?php printf("%02d", $ejercicio);  ?></a>
+        Ejercicio igual al 20 pero con sesiones
       </li>
     </ul>
   </ol>

@@ -32,6 +32,7 @@ class App
       header('Location: ?method=login');
       return;
     }
+    //echo "xxxxx"; //al cuerpo del response. Ya no puedo usar header, ningun setcookie,....
     //guardar en cookie
     setcookie('name', $name, time() + 60*60*2);
     setcookie('password', $password, time() + 60*60*2);
